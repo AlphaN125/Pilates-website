@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #007bff; /* Bright blue background for better contrast */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* White text for better visibility */
+}
+
+.nav-link:hover {
+    color: #cccccc !important; /* Light grey on hover */
+}
+
+.banner {
+    background: url('../images/pilates.jpg') no-repeat center center;
+    background-size: auto;
+    color: black;
+    padding: 800px 0;
+    text-align: center;
+}
+
+.banner  {
+    padding: 100px 0;
+}
+
+.features {
+    background-color: #e0ffff; /* Light cyan for a softer look */
+    padding: 40px 0;
+}
+
+.features .card {
+    margin: 15px 0;
+}
+
+.features .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-section {
+    background-color: #20b2aa; /* Light sea green for a more cohesive look */
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #f4a460; /* Sandy brown for a warm look */
+    padding: 40px 0;
+}
+
+.modal-header, .modal-footer {
+    background-color: #ffa07a; /* Light salmon for a softer appearance */
+    color: white;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Custom link colors */
+a {
+    color: #007bff; /* Default link color */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional styles for Pilates series */
+.pilates-series {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.pilates-series h2, .pilates-series h3, .pilates-series h4 {
+    margin-bottom: 20px;
+}
+
+.pilates-series ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.pilates-series ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.pilates-series .nav-link {
+    color: #007bff !important;
+}
+
+.pilates-series .nav-link:hover {
+    color: #0056b3 !important;
+}
